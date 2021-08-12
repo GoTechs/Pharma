@@ -103,14 +103,16 @@
       redirect('checkproduct.php');
     }
     ?>
-    
+  
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
     <!-- Material Design Bootstrap-->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    
+    
+  
     <script>
   
     function isInputNumber(evt){

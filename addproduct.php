@@ -42,14 +42,27 @@ $color="navbar-light orange darken-4";
         <div class="mycardstyle">
             <div class="greyarea">
                 <h5> Veuillez remplir les détails du produit  </h5>
+
                 <form id="form1" autocomplete="off">
                     <div class="formitem">
-                        <label type="text" class="formlabel"> Nom du produit </label>
-                        <input type="text" class="forminput" id="prodname" required>
-                        <input type="hidden" class="forminput" id="user" value=<?php echo $_SESSION['username']; ?> required>
-                    </div>
-                    <button class="formbtn" id="mansub" type="submit">Enregistrer le produit</button>
-                </form>
+
+                        <label type="text" class="formlabel"> UPC </label>
+                        <input type="text" class="forminput" id="upc" required>
+
+                        <label type="text" class="formlabel"> Nom du fabricant </label>
+                        <input type="text" class="forminput" id="producerName" required>
+
+                        <label type="text" class="formlabel"> Information sur le fabricant </label>
+                        <input type="text" class="forminput" id="producerInformation" required>
+
+                        <label type="text" class="formlabel"> Notes </label>
+                        <input type="text" class="forminput" id="articleNotes" required>
+
+                        <!-- <input type="hidden" class="forminput" id="user" value=<?php //echo $_SESSION['username']; ?> required> -->
+                     
+                      </div>
+                    <button class="formbtn databtn" id="button" type="button" data-id="1">Enregistrer</button>
+                  </form>
             </div>
         </div>
 
@@ -74,14 +87,17 @@ $color="navbar-light orange darken-4";
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <!-- Web3.js -->
-    <script src="web3.min.js"></script>
+    
 
     <!-- QR Code Library-->
     <script src="./dist/qrious.js"></script>
 
     <!-- QR Code Reader -->
 	<script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
-  <script src="app.js"></script>
+  <!-- Web3.js -->
+  <script src="web3.min.js"></script>
+  <script src="./src/js/truffle-contract.js"></script>
+  <script src="./src/js/app.js"></script>
+  
   </body>
 </html>

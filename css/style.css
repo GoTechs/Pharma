@@ -106,6 +106,13 @@ body, html {
     display: none;
 }
 
+.infomed {
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bolder;
+    line-height: 2;
+}
+
 .fixedcardstyle{
     width: 40%;
     background-color: white;
