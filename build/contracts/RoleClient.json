@@ -298,7 +298,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1264,
+                          "referencedDeclaration": 1270,
                           "src": "667:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -404,7 +404,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1264,
+                              "referencedDeclaration": 1270,
                               "src": "813:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -470,10 +470,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1267,
-                        1268
+                        1273,
+                        1274
                       ],
-                      "referencedDeclaration": 1267,
+                      "referencedDeclaration": 1273,
                       "src": "796:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1605,7 +1605,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1264,
+                                  "referencedDeclaration": 1270,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1684,10 +1684,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1267,
-                                1268
+                                1273,
+                                1274
                               ],
-                              "referencedDeclaration": 1267,
+                              "referencedDeclaration": 1273,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1747,7 +1747,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1264,
+                                      "referencedDeclaration": 1270,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -2722,7 +2722,7 @@
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-12T23:01:19.644Z",
+  "updatedAt": "2021-08-13T00:08:32.927Z",
   "devdoc": {
     "methods": {}
   },

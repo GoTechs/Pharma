@@ -292,7 +292,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1264,
+                          "referencedDeclaration": 1270,
                           "src": "668:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -398,7 +398,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1264,
+                              "referencedDeclaration": 1270,
                               "src": "824:3:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -464,10 +464,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1267,
-                        1268
+                        1273,
+                        1274
                       ],
-                      "referencedDeclaration": 1267,
+                      "referencedDeclaration": 1273,
                       "src": "802:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -824,7 +824,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1264,
+                          "referencedDeclaration": 1270,
                           "src": "1317:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1587,7 +1587,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1264,
+                                  "referencedDeclaration": 1270,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1666,10 +1666,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1267,
-                                1268
+                                1273,
+                                1274
                               ],
-                              "referencedDeclaration": 1267,
+                              "referencedDeclaration": 1273,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1729,7 +1729,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1264,
+                                      "referencedDeclaration": 1270,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -2195,7 +2195,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1264,
+                                  "referencedDeclaration": 1270,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -2698,7 +2698,7 @@
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-12T23:01:19.656Z",
+  "updatedAt": "2021-08-13T00:08:32.936Z",
   "devdoc": {
     "methods": {}
   },

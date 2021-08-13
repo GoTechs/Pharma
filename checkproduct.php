@@ -38,21 +38,14 @@
       <center>
         <div class="centered">
           <form role="form" autocomplete="off">
-              <input type="text" id="searchText" class="searchBox" placeholder="Entrez le code produit" onkeypress="isInputNumber(event)" required>
-              <label class=qrcode-text-btn style="width:4%;display:none;">
-				<input type=file accept="image/*" id="selectedFile" style="display:none" capture=environment onchange="openQRCamera(this);" tabindex=-1>
-			  </label>
-			  <button type="submit" id="searchButton" class="searchBtn"><i class="fa fa-search"></i></button>
-          </form>
-			
-		<button class="qrbutton" onclick="document.getElementById('selectedFile').click();">
-		<i class='fa fa-qrcode'></i> Scannez le code QR
-		</button>
+              <input type="text" id="upc" class="searchBox" placeholder="Entrez le code produit" required>
+              <button type="button" id="searchButton" class="searchBtn databtn" data-id="2"><i class="fa fa-search"></i></button>
+          </form
 	
           <br><br>
-          <p id="database" class="cardstyle">
-            Aucune donnée à afficher
-          </p>
+         
+          <div id="ftc-medicine" class="infomed"></div>
+          
         </div>
       </center>
     </div>
@@ -77,7 +70,8 @@
 
 
     <script src="web3.min.js"></script>
-    <script src="app.js"></script>
+    <script src="./src/js/truffle-contract.js"></script>
+    <script src="./src/js/app.js"></script>
 
 	<!-- QR Code Reader -->
 	<script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>

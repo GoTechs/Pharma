@@ -421,7 +421,8 @@ contract PharmaSupplyChain is RoleProducer, RoleDistributor, RoleClient {
     address ownerID,
     address producerID,
     string memory producerName,
-    string memory producerInformation
+    string memory producerInformation,
+    State articleState
     //string  originFactoryLatitude
     // producerName; // Manufacturer Name
     //string  producerInformation
@@ -438,7 +439,8 @@ contract PharmaSupplyChain is RoleProducer, RoleDistributor, RoleClient {
     articles[_upc].ownerID,
     articles[_upc].producerID,
     articles[_upc].producerName,
-    articles[_upc].producerInformation
+    articles[_upc].producerInformation,
+    articles[_upc].articleState
     //medicines[_upc].originFactoryLatitude
     // medicines[_upc].originFactoryLongitude
     );

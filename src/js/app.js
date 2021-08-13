@@ -93,11 +93,10 @@ App = {
     handleButtonClick: async function(event) {
         event.preventDefault();
 
-        App.getMetaskAccountID();
-
-        var processId = parseInt($(event.target).data('id'));
-        console.log('processId',processId);
-
+        await App.getMetaskAccountID();
+        
+        let processId =  event.target && $(event.target).data('id') &&  +($(event.target).data('id'));
+       if(processId) {
         switch(processId) {
             case 1:
                 return await App.produceArticleByProducer(event);
@@ -127,6 +126,9 @@ App = {
                 return await App.articleTraceDistributor(event);
                 break;
             }
+       }
+
+   
     },
 
     produceArticleByProducer: function(event) {
@@ -167,6 +169,7 @@ App = {
                    
                 "UPC: "+result[1]+"<br>"+
                 "Nom du fabricant: "+result[4]+"<br>"+
+                "Status: 0 <br>"+
                 "Information sur le fabricant: "+result[5]+"<br>");
                 
 
